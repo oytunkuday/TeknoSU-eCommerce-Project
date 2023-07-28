@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Phone 1",
+      "price": "$400.90",
+      "isInCart": false,
+      "imageURL": "https://puri.sm/wp-content/uploads/2021/07/l5-v1-front-3-shadow.png",
+      "description": "Very good product"
+    },
+    {
+      "id": 2,
+      "name": "Laptop 1",
+      "price": "$3.99",
+      "isInCart": true,
+      "imageURL": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LqQX?ver=fe80",
+      "description": "Very good product"
+    },
+    
+    {
+      "id": 3,
+      "name": "Laptop 2",
+      "price": "$3.99",
+      "isInCart": false,
+      "imageURL": "https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFlaHpyR1VPN0wuX0FDX1NMMTUwMF8uanBn.jpg",
+      "description": "Very good product"
+    },
+    {
+      "id": 4,
+      "name": "Phone 2",
+      "price": "$3.99",
+      "isInCart": true,
+      "imageURL": "https://images.samsung.com/tr/smartphones/galaxy-z-flip3-5g/images/galaxy-z-flip3-5g-share-image.jpg",
+      "description": "Very good product"
+    },
+    {
+      "id": 5,
+      "name": "Phone 3",
+      "price": "$3.99",
+      "isInCart": false,
+      "imageURL": "https://puri.sm/wp-content/uploads/2021/06/l5-v1-persp-3.png",
+      "description": "Very good product"
+    },
+    {
+      "id": 6,
+      "name": "Laptop 3",
+      "price": "$3.99",
+      "isInCart": true,
+      "imageURL": "https://www.intel.com.tr/content/dam/www/central-libraries/us/en/images/alder-lake-laptop-windows.png.rendition.intel.web.480.270.png",
+      "description": "Very good product"
+    },
+    {
+      "id": 7,
+      "name": "Laptop 4",
+      "price": "$3.99",
+      "isInCart": false,
+      "imageURL": "https://www.ubuy.com.tr/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNjF2Rk8zUjVVTkwuX0FDX1NMMTUwMF8uanBn.jpg",
+      "description": "Very good product"
+    },
+    {
+      "id": 8,
+      "name": "Television 1",
+      "price": "$3.99",
+      "isInCart": false,
+      "imageURL": "https://image.made-in-china.com/202f0j00lWvRBPQHaCqr/2020-New-Arrival-75-Inch-Qled-Smart-Class-4K-UHD-TV-Ultra-HD-Televisions-Qled-Hdr-LCD-Tvs.jpg",
+      "description": "Very good product"
+    },
+    {
+      "id": 9,
+      "name": "Television 2",
+      "price": "$3.99",
+      "isInCart": false,
+      "imageURL": "https://cdn.shopify.com/s/files/1/2660/5202/products/shopify-image_1dc78dbe-d1e3-4df3-9115-6f1666b08eac_1400x.jpg?v=1611364568",
+      "description": "Very good product"
+    },
+    {
+      "id": 10,
+      "name": "Television 3",
+      "price": "$3.99",
+      "isInCart": false,
+      "imageURL": "https://m.media-amazon.com/images/I/21JRkgwAuNL._AC_SY580_.jpg",
+      "description": "Very good product"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryNumber":1,
+      "categoryName": "Phones",
+      "productIDs": [1, 4, 5],
+      "categoryImg": "https://www.cnet.com/a/img/resize/eabd239642878785575800cb4b1a52ee4ccc1bc9/2020/08/18/b7168aea-9f7e-47bb-9f31-4cb8ad92fbc7/lg-note-20-ultra-5g-iphone-11-se-google-pixel-4a-lg-velvet-6133.jpg?auto=webp&fit=crop&height=630&width=1200"
+    },
+    {
+      "id": 2,
+      "categoryNumber":2,
+      "categoryName": "Laptops",
+      "productIDs": [2, 3, 6, 7],
+      "categoryImg": "https://cdn.thewirecutter.com/wp-content/uploads/2020/04/laptops-lowres-.jpg?auto=webp&quality=60&crop=1.91:1&width=1200"
+    },
+    {
+      "id": 3,
+      "categoryNumber":3,
+      "categoryName": "Televisions",
+      "productIDs": [8, 9, 10],
+      "categoryImg": "https://image.coolblue.nl/transparent/max/422x390/content/2577abc08eec7db258a52bc84caffa6f"
+    }
+  ]
+}

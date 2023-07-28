@@ -1,0 +1,30 @@
+import { ref } from '@vue/reactivity'
+
+const getProductsOrder = () => {
+    const products = ref([])
+    const error = ref(null)
+
+    const load31 = async(orderId) => {
+      try{
+        let response = await fetch('localhost:3000/api/v1/orders/getOrderByUser?_id='+orderId)
+        if(response.status !== 200){
+          throw Error('no data available')
+        }
+
+        const data = await response.json()
+        console.log(data)
+        console.log("yukari bak")
+        products.value = data.data.products
+      }
+      catch(err){
+        error.value = err.message
+        console.log(error.value)
+      }
+    }
+
+    return{
+        products, error, load31
+    }
+}
+
+export default getProductsOrder

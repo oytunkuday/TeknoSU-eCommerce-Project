@@ -1,0 +1,25 @@
+[{
+    "id": 0,
+    "name": "Iphone 13",
+    "brand": "Apple",
+    "category": "Smart Phones",
+    "description": "Keske Ipjonem olsa",
+    "distributor": "ben",
+    "stocks": 2,
+    "isWarranty": true,
+    "isRecommended": true,
+    "ispopular": true,
+    "images": ["https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mlpf3tua-apple-iphone-13-128gb-gece-yarisi-637678210553548502.jpg","https://st-troy.mncdn.com/mnresize/800/800/Content/media/ProductImg/original/mlpf3tua-apple-iphone-13-128gb-gece-yarisi-637678210984858905.jpg?q=100"]
+},{
+    "id": 1,
+    "name": "Iphone 11",
+    "brand": "Apple",
+    "category": "Smart Phones",
+    "description": "Keske Ipjonem olsa",
+    "distributor": "ben",
+    "stocks": 2,
+    "isWarranty": true,
+    "isRecommended": true,
+    "ispopular": true,
+    "images": ["https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mlpf3tua-apple-iphone-13-128gb-gece-yarisi-637678210553548502.jpg","https://st-troy.mncdn.com/mnresize/800/800/Content/media/ProductImg/original/mlpf3tua-apple-iphone-13-128gb-gece-yarisi-637678210984858905.jpg?q=100"]
+}]

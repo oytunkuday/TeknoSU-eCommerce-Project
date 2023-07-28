@@ -1,0 +1,53 @@
+{
+  "name": "teknosu",
+  "version": "1.0.0",
+  "description": "TeknoSU E-Commerce App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js",
+    "debug": "ndb ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://oytunkuday@bitbucket.org/cs308-202102-akifatakan/team26-cp22-bb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/cs308-202102-akifatakan/team26-cp22-bb/issues"
+  },
+  "homepage": "https://bitbucket.org/cs308-202102-akifatakan/team26-cp22-bb#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chokidar": "^3.5.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "easyinvoice": "^2.3.0",
+    "express": "^4.17.3",
+    "js-search": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.4",
+    "slugify": "^1.6.5",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "ndb": "^1.1.5",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  },
+  "engines": {
+    "node": ">=16.14.2"
+  }
+}

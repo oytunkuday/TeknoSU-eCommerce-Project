@@ -1,0 +1,54 @@
+{
+  "name": "teknosu-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@dafcoe/vue-collapsible-panel": "^0.2.0",
+    "@fracto/vue-credit-card": "^0.5.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-vue": "^2.22.0",
+    "core-js": "^3.8.3",
+    "devextreme": "22.1.3",
+    "devextreme-vue": "22.1.3",
+    "v-credit-card": "^1.2.4",
+    "vue": "^3.2.13",
+    "vue-axios": "^3.4.1",
+    "vue-credit-card-field": "^0.3.14",
+    "vue-credit-card-validation": "^1.0.5",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-paycard": "^0.7.0",
+    "vue-pdf": "^4.3.0",
+    "vue-router": "^4.0.3",
+    "vue-star": "^0.0.4",
+    "vue-star-rating": "^2.1.0",
+    "vue3-star-ratings": "^1.1.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^2.0.0",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.0.6",
+    "jest": "^28.1.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest"
+    }
+  }
+}
